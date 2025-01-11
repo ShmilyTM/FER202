@@ -1,8 +1,20 @@
-h2 {
-  font-weight: bold;
+
+.navbar {
+  display: flex;
+  background-color: #333;
+  padding: 10px;
 }
 
-ul {
-  list-style-type: disc;
-  margin-left: 20px;
+
+.nav-item {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+
+.nav-item.active {
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
